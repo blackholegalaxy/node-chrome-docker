@@ -2,7 +2,7 @@ FROM node:10
 
 LABEL maintainer="blackholegalaxy"
 
-ENV CHROME_VERSION 74.0.3729.157-1
+ENV CHROME_VERSION 77.0.3865.90
 
 RUN apt-get -qqy update \
   && apt-get -qqy install \
